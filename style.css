@@ -1,0 +1,77 @@
+/* CONFIGURACIÓN GENERAL */
+
+body {
+    background-color: #f4f6f9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* ENCABEZADO */
+
+section h1 {
+    color: #212529;
+}
+
+
+/* TARJETAS */
+
+.card {
+    border: none;
+    border-radius: 12px;
+}
+
+.card-header {
+    border-radius: 12px 12px 0 0 !important;
+}
+
+
+/* FORMULARIO */
+
+.form-control,
+.form-select {
+    border-radius: 8px;
+}
+
+
+.form-control:focus,
+.form-select:focus {
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+
+/* BOTONES */
+
+.btn {
+    border-radius: 8px;
+}
+
+
+/* TARJETAS DE PRODUCTOS */
+
+.producto-card {
+    transition: transform 0.2s ease;
+}
+
+
+.producto-card:hover {
+    transform: translateY(-5px);
+}
+
+
+/* RESPONSIVIDAD */
+
+@media (max-width: 576px) {
+
+    section h1 {
+        font-size: 1.8rem;
+    }
+
+    .card-header h4 {
+        font-size: 1.1rem;
+    }
+
+    .navbar-brand {
+        font-size: 1rem;
+    }
+
+}
